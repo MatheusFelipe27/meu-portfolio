@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.fundo{
+    background-color: #18bc9c;
+    height: 100%;
+    width: 35%;
+    padding-top: 10%;
+    margin-left: 0%;
+}
+.fundo> h1{
+    color: white;
+    padding-left: 25px;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+.fundo >.foto-perfil {
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    top: -40px;
+    width: 250px;
+}
+
+#inputs{
+    text-align: center;
+    color: grey;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin-left: 120px ;
+}
+
+#inputs2{
+    text-align: center;
+    color: grey;
+    outline: none;
+    border: 1px solid lightgray;
+    position: absolute;
+    width: 65%;
+    left: 35%;
+    font-size: 18px;
+    padding:10px;
+    top:0px;
+}
+
+#inputs3{
+    text-align: center;
+    color: grey;
+    outline: none;
+    border: 1px solid lightgray;
+    position: absolute;
+    width: 65%;
+    left: 35%;
+    font-size: 18px;
+    padding:10px;
+    top:200px;
+}
+
+#inputs4{
+    text-align: center;
+    color: grey;
+    outline: none;
+    border: 1px solid lightgray;
+    position: absolute;
+    width: 103.2%;
+    left: -1.6%;
+    font-size: 18px;
+    padding:10px;
+    top:400px;
+}
+    
+.fundo>h3{
+    color: white;
+    padding-left: 25px;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+    padding-bottom: 1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.second-part>p{
+    top:60px;
+    position: absolute;
+    left:35%;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    font-size: 18px; 
+    padding: 10px;
+}
+
+#testando{
+    position: absolute;
+    top: 250px;
+    left: 36%;
+}
+
+
+
+
+
+
+
+
+
