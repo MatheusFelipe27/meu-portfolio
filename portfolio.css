@@ -18,7 +18,6 @@
 }
 
 .fundo >.foto-perfil {
-    height: 300px;
     border-radius: 50%;
     position: relative;
     left: 100px;
