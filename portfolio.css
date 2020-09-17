@@ -1,115 +1,116 @@
-*{
+* {
     padding: 0;
     margin: 0;
-}
-.fundo{
-    background-color: #18bc9c;
-    height: 100%;
-    width: 35%;
-    padding-top: 10%;
-    margin-left: 0%;
-}
-.fundo> h1{
-    color: white;
-    padding-left: 25px;
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;  
-    padding-bottom: 30px;
-    margin-top: 10px;
+    font-family: sans-serif;
 }
 
-.fundo >.foto-perfil {
-    border-radius: 50%;
-    position: relative;
-    left: 100px;
-    top: -40px;
-    width: 250px;
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #18bc9c;
+    justify-content: stretch;
+    width: 35%;
+    padding: 20px 0px;
+}
+
+#name {
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+}
+
+.sidebar-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.personal-info {
+    color: white;
+    margin: 5px 0px;
+    font-size: 18px;
 }
 
 .contact-link {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    margin: 5px 0px;
+    font-size: 18px;
 }
 
-#inputs{
+.sidebar-section-title {
+    background-color: white;
+    color: rgb(94, 94, 94);
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
     text-align: center;
-    color: grey;
-    padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
-    border-radius: 10px;
-    outline: none;
-    border: 1px solid lightgray;
-    margin-left: 120px ;
+    font-weight: bold;
 }
 
-#inputs2{
-    text-align: center;
-    color: grey;
-    outline: none;
-    border: 1px solid lightgray;
-    position: absolute;
+#page {
+    display: flex;
+    height: 100%;
+}
+
+.main {
     width: 65%;
-    left: 35%;
-    font-size: 18px;
-    padding:10px;
-    top:0px;
 }
 
-#inputs3{
+.main-section > p, .main-section > a {
+    margin: 20px;
+    text-align: justify;
+}
+
+.main-section > ul {
+    margin: 40px;
+}
+
+.main-section-title {
+    width: 100%;
+    background-color: gainsboro;
+    color: gray;
+    font-size: 18px;
+    padding: 10px 0px;
     text-align: center;
-    color: grey;
-    outline: none;
-    border: 1px solid lightgray;
-    position: absolute;
-    width: 65%;
-    left: 35%;
-    font-size: 18px;
-    padding:10px;
-    top:200px;
 }
 
-#inputs4{
-    text-align: center;
-    color: grey;
-    outline: none;
-    border: 1px solid lightgray;
-    position: absolute;
-    width: 103.2%;
-    left: -1.6%;
+.link {
+    display: block;
+    color: #18bc9c;
+    text-decoration: none;
+    font-weight: bold;
     font-size: 18px;
-    padding:10px;
-    top:400px;
-}
-    
-.fundo>h3{
-    color: white;
-    padding-left: 25px;
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;  
-    padding-bottom: 1px;
-    margin-bottom: 30px;
-    margin-top: 30px;
 }
 
-.second-part>p{
-    top:60px;
-    position: absolute;
-    left:35%;
-    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
-    font-size: 18px; 
+#google-ui-image {
+    height: 225px;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    width: 250px;
+    margin: 20px 0px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: gainsboro;
+    width: 100px;
     padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
 }
 
-#testando{
-    position: absolute;
-    top: 250px;
-    left: 36%;
+.button > a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
 }
-
-
-
-
-
-
-
-
-
